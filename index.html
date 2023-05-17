@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock, Paper and Scissors Game</h1>
+    <div class="container">
+      <div class="container-content">
+        <h2>Computer Choice: <br /><spam id="computer-choice"></spam></h2>
+        <h2>User Choice: <br /><spam id="user-choice"></spam></h2>
+        <h2>Result: <br /><spam id="result"></spam></h2>
+        <div class="button-container">
+          <button id="rock" class="button-option">Rock</button>
+          <button id="paper" class="button-option">Paper</button>
+          <button id="scissors" class="button-option">Scissors</button>
+        </div>
+        <button id="reset" onclick="resetDisplay()">Clean</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
